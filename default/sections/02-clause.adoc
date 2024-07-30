@@ -1,0 +1,27 @@
+////
+The main body of the document follows the preface, and any number of top-level clauses can be added before the annexes.
+They in turn can contain any number of subclauses.
+
+It is good practice to insert anchors before all clauses, in case you need to cross-reference them from elsewhere
+in the document.
+////
+
+[[first_clause]]
+== Clause name
+
+Spatial Data is the data or information that identifies the geographic location of features and boundaries on Earth and Space, such as natural or constructed features, oceans and space but also includes encoding attributes, observations and other metrics concerning these features and boundaries.
+
+Spatial data is usually stored as coordinates and topology, and is data that can be mapped. Spatial data is often accessed, manipulated or analyzed through Geographic Information Systems (GIS). 
+
+...
+
+[[clause_1_1]]
+=== What constitutes an MSDI?
+
+An MSDI can be described as a framework comprising the key components shown in <<fig1>>.
+
+[[fig1]]
+.The Four pillars of MSDI
+image::image001.png["",622,350]
+
+...

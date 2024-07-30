@@ -1,0 +1,14 @@
+////
+All annexes are indicated with the role attribute `[appendix]`
+////
+
+[[annexA]]
+[appendix]
+== SDI Best Practice
+
+Oil spills remain one of the most serious environmental risks for the oil and shipping industries as the environment and livelihoods can be considerably affected in the event of a significant incident. Although large spills from tankers and oil industry operations have become less frequent in the last few decades, accidents still happen and, because of their potential impact, they represent a serious risk that must be effectively managed.
+
+Annexes can contain abbreviations, glossaries, and links. They do not contain references sections; for that, see the S-100 series.
+
+...
+

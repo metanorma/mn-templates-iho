@@ -1,0 +1,11 @@
+[[intro]]
+== Introduction
+
+////
+Introductions are recognised automatically as belonging to the preface of the document
+////
+
+The purpose of this document isto explain the way that a Hydrographic Office (HO) should promote, support, and participate in Spatial Data Infrastructures (SDIs). It is not definitive in its nature, preferring instead to provide guidance on how best to achieve this through practical advice, simple step by step processes, useful links to reference material and examples of best practice.
+
+...
+
