@@ -4,9 +4,12 @@
 ////
 All prefatory sections should be given the attribute `[.preface]` before their title, but this can be ommitted in the case of:
 
-Introduction Foreword Acknowledgements
+* Introduction 
+* Foreword 
+* Acknowledgements
+* Abstract
 
-Which are recognised automatically as prefatory
+which are recognised automatically as prefatory.
 ////
 
 The 17^th^ International Hydrographic Conference held in May 2007, directed that CHRIS (now the IHO Hydrographic Services and Standards Committee - HSSC) establish a Marine Spatial Data Infrastructures Working Group (MSDIWG) to identify the Hydrographic Community inputs to National Spatial Data Infrastructures (NSDI). In 2015, the responsibility for the MSDIWG moved from HSSC to the Inter-Regional Coordination Committee (IRCC). This change reflected the ongoing nature of the work of the MSDIWG in tackling predominantly non-technical matters. The Terms of Reference of and other information about the MSDIWG are available at:

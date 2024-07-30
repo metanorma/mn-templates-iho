@@ -1,0 +1,36 @@
+
+[.preface]
+== Document History
+
+////
+All prefatory sections should be given the attribute `[.preface]` before their title, but this can be ommitted in the case of:
+
+* Introduction 
+* Foreword 
+* Acknowledgements
+* Abstract
+
+which are recognised automatically as prefatory.
+
+The first prefatory section is a Document History, which is formatted as a table, as given below.
+////
+
+Changes to this Specification are coordinated by the IHO S-100 Working Group. New editions will be made available via the IHO web site. Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).
+
+[%unnumbered]
+[cols="a,a,a,a",options="headers"]
+|===
+|Version Number |Date |Approved By |Purpose
+
+|1.0.0
+|April 2012
+|TSMAD
+|Approved edition of S-102
+
+|2.0.0
+|March 2017
+|S-102PT
+|Updated clause 4.0 and 12.0. +
+Populated clause 9.0 and Annex B.
+
+|===

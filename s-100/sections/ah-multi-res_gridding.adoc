@@ -1,0 +1,9 @@
+////
+TODO: not specified in S-97, clarification needed  on whether this should be included in template.
+////
+
+[[annex-multi-resolution-gridding]]
+[appendix]
+== Multi-Resolution Gridding
+
+NOTE: Multi-Resolution gridding to be addressed in a future version of S-102.

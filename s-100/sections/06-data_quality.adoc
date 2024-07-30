@@ -1,0 +1,30 @@
+////
+All S-100-based Product Specifications should include comprehensive ways of capturing information about
+the quality of the data.
+
+(S-97 A-6.2.14)
+////
+
+[[sec-data-quality]]
+== Data Quality
+Data quality allows users and user systems to assess fitness for use of the provided data. Data quality measures and the associated evaluation are reported as metadata of a data product. This metadata improves interoperability with other data products and provides usage by user groups that the data product was not originally intended for. The secondary users can make assessments of the data product usefulness in their application based on the reported data quality measures.
+
+=== Completeness
+
+==== Commission
+The S-102 bathymetric grid has a high-level of completeness regarding commission, due to the fact that the issuing hydrographic office has deemed the grid to contain all the necessary data and/or considered all contributing factors required to make a navigationally valid product. These factors are recorded in the metadata for the file.
+
+==== Omission
+The S-102 bathymetric grid has a high level of completeness in regards to omission, due to the fact that the issuing hydrographic office will have noted any major discrepancies or negative quality factors in the applicable fields of the metadata for the file.
+
+=== Logical consistency
+
+==== Conceptual consistency
+The conceptual consistency of S-102 grids is maintained through this and related specifications which are conceptually consistent with the accepted standards.
+
+==== Domain consistency
+The domain consistency of S-102 grids is maintained through the definition of their primary purpose, which is safety of navigation. The data contained can also be used derivatively for other scientific/fields domains (secondary purposes). All processes used in primary purpose generation is geared solely towards the satisfaction of safety of navigation concerns.
+
+==== Format consistency
+The formatting consistency of S-102 grids is maintained due to the overriding encoding (HDF5) defined in the S-100 specification and the other IHO standards on which the data is based.
+

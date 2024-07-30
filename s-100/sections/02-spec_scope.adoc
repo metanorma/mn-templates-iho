@@ -1,0 +1,31 @@
+////
+After the overview, the specification scope indicates the applicability of designated portions of the Product Specification to either
+the entire product or to parts of the product. For example, a coordinate reference system will generally
+apply to the complete product, while maintenance regimes may be different for navigational features
+versus contextual features. This difference would be described using specification scopes.
+
+Depending on the type of Product Specification, the scope may include the following:
+
+* scopeIdentification (mandatory)
+* level
+* levelName
+* levelDescription
+* coverage
+* extent
+
+(S-97 A-6.2.3)
+////
+
+== Specification Scope
+This product specification defines only one general scope which applies to all its sections.
+
+Scope Identification:: GeneralScope
+Level:: 006- series
+Level name:: Dataset
+Level description:: Level applies globally to all ENC datasets
+Coverage:: All features in the ENC Feature Catalogue
+Extent:: EX_GeographicBoundingBox
+westBoundLongitude::: -180
+eastBoundLongitude::: 180
+southBoundLatitude::: -90
+northBoundLatitude::: 90

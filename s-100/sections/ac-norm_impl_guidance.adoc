@@ -1,0 +1,17 @@
+////
+
+The Product Specification should contain all information at a sufficient level of detail for easy
+implementation by the intended stakeholders. However, there may be additional considerations that
+impact implementers, users and other stakeholders. These additional considerations can be added to a
+section or appendix called an Implementation Guide, or another appropriate title. Such a section can be
+used to give context of intended use, or used to elaborate on special circumstances that impact
+stakeholders, and so forth.
+
+(S-97, A-6.2.21)
+////
+
+[[annex-normative-implementation-guidance]]
+[appendix,obligation="normative"]
+== Normative Implementation Guidance
+
+NOTE: Normative Implementation Guidance to be addressed in a future version of S-102.

@@ -1,0 +1,81 @@
+= Title
+:comment: ### Title of document
+:title: Title
+:comment: ### Legal values: S
+:series: S
+:comment: ### Incremental number of document within the series. For example, S-101 is broken down as series: S, docnumber: 101
+:docnumber: 101
+:comment: ### Omit if not published. The date on which the document is published. Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
+:published-date: 2018-06-01
+:comment: ### Used to indicate the date when a document has been updated since publication. In particular, used for dating of errata releases.
+:updated-date: 2018-06-01
+:comment: ### Omit if published: this is the date on which a draft is circulated.
+:circulated-date: 2018-06-01
+:comment: ### Date last updated for a revision
+:revdate: 2018-06-01
+:comment: ### Year that the document has been copyrighted to; by default is the year of the `:published-date:`
+:copyright-year: 2018
+:comment: ### Omit if not applicable. Edition of the document, as a concatenation of the major, minor, and patch numbers
+:edition: 2.0.0
+:comment: ### The major, minor, and patch numbers can be supplied instead of `:edition:`, but do not override it
+:edition-major: 2
+:edition-minor: 0
+:edition-patch: 0
+:comment: ### Language of document, for internationalisation. Default: en (English)
+:language: en
+:comment: ### Legal values: draft-proposal draft-development draft-testing draft-implementation in-force retired. Default is in-force
+:status: in-force
+:comment: ### Document type. Legal values: standard specification resolution regulation.
+:doctype: standard
+:comment: ### Committee
+:committee: ircc
+:comment: ### If more than one committee is involved, they are indicated by suffixing _2, _3 etc to the attribute name
+:committee_2: hssc
+:comment: ### Workgroup
+:workgroup: msdiwg
+:comment: ### If more than one workgroup is involved, they are indicated by suffixing _2, _3 etc to the attribute name
+:workgroup_2: csbwg
+#:comment: ### Name of sponsoring organisation. Not yet implemented. Multiple sponsors are indicated by suffxing _2, _3 etc to the attribute name
+#:sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
+#:comment: ### Logo of sponsor. Not yet implemented.
+#:sponsor-logo: fema.jpg
+:comment: ### draft status, enables display of reviewer notes; remove if final document
+:draft:
+:toc:
+:stem:
+:comment: ### name of this AsciiDoc file
+:docfile: document.adoc
+:mn-document-class: iho
+:comment: ### Omit one of the following to exclude that format from being generated
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+:imagesdir: images
+
+////
+////
+
+
+include::sections/00-document-history.adoc[]
+include::sections/01-overview.adoc[]
+include::sections/02-spec_scope.adoc[]
+include::sections/03-data_product_id.adoc[]
+include::sections/04-data_content_struct.adoc[]
+include::sections/05-coord_ref_system.adoc[]
+include::sections/06-data_quality.adoc[]
+include::sections/07-data_cap_class.adoc[]
+include::sections/08-data_maintenance.adoc[]
+include::sections/09-portrayal.adoc[]
+include::sections/10-data_product_format.adoc[]
+include::sections/11-data_product_delivery.adoc[]
+include::sections/12-metadata.adoc[]
+include::sections/aa-data_class_enc_.adoc[]
+include::sections/ac-norm_impl_guidance.adoc[]
+include::sections/ad-feature_catalogue.adoc[]
+include::sections/ae-portrayal-catalogue.adoc[]
+include::sections/af-dataset_size_production.adoc[]
+include::sections/ag-gridding_methods.adoc[]
+include::sections/ah-multi-res_gridding.adoc[]
+include::sections/ai-gridding_full.adoc[]
+
+

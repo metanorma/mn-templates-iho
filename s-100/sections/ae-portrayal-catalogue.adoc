@@ -1,0 +1,30 @@
+////
+
+A Product Specification has several components – typically a main document that provides
+the human-readable documentation; and machine-readable files for information such as the Feature
+Catalogue and Portrayal Catalogue.
+
+Portrayal is an optional part of a Product Specification. However, if consistent portrayal across all user
+platforms is important to an S-100-based data product, then specifying how portrayal is done becomes
+mandatory. Within S-100 Product Specifications, this is done by including a Portrayal Catalogue. The
+Portrayal Catalogue is a collection of defined portrayal instructions for a Feature Catalogue; and includes
+portrayal functions, symbols and portrayal context.
+
+Portrayal Catalogues are machine-readable instructions for how to portray data compliant with a specific
+data model for a specific version of a Product Specification. They can either be constructed manually or by
+a Portrayal Catalogue Builder (PCB). In either case, they must comply with the structure specified in S-100
+Part 9 and the S-100 Portrayal Catalogue Schema. The IHO infrastructure includes a PCB for XSLT for any
+Product Specification development team wishing to utilize it in the creation of a Portrayal Catalogue for an
+S-100-based Product Specification.
+
+Not every Specification will need a Portrayal Catalogue -- this should be
+determined as part of the development
+process and stakeholder feedback.
+
+(S-97, A-6.2.20, A-7.4, B-16)
+////
+
+[appendix,obligation="informative"]
+== Portrayal Catalogue
+
+NOTE: Portrayal Catalogue currently under development.
