@@ -1,0 +1,21 @@
+= IHO Metanorma Templates
+
+This GitHub repository contains templates for IHO documents.
+
+This repository is used by the `metanorma new` command to create new documents.
+
+== Document types
+
+These types supported in this template repository:
+
+* `s-100`: The template belongs to the S-100 series and is based on the rules given in IHO S-97: IHO Guidelines for Creating S-100 Product Specifications
+* `default`: The template belongs to the default for IHO, extrapolated from C-17
+
+Note that both of these generate `standard` documents for their document type ("doctype") by default, but they are still invoked through
+the `-d` option.
+
+[source,console]
+----
+metanorma new -t iho -d s-100
+metanorma new -t iho -d default
+----

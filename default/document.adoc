@@ -1,0 +1,62 @@
+= Title
+:comment: ### Title of document
+:title: Title
+:comment: ### Legal values: B C M S
+:series: C
+:comment: ### Incremental number of document within the series. For example, C-17 is broken down as series: C, docnumber: 17
+:docnumber: 17
+:comment: ### Omit if not published. The date on which the document is published. Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
+:published-date: 2018-06-01
+:comment: ### Used to indicate the date when a document has been updated since publication. In particular, used for dating of errata releases.
+:updated-date: 2018-06-01
+:comment: ### Omit if published: this is the date on which a draft is circulated.
+:circulated-date: 2018-06-01
+:comment: ### Date last updated for a revision
+:revdate: 2018-06-01
+:comment: ### Year that the document has been copyrighted to; by default is the year of the `:published-date:`
+:copyright-year: 2018
+:comment: ### Omit if not applicable. Edition of the document, as a concatenation of the major, minor, and patch numbers
+:edition: 2.0.0
+:comment: ### The major, minor, and patch numbers can be supplied instead of `:edition:`, but do not override it
+:edition-major: 2
+:edition-minor: 0
+:edition-patch: 0
+:comment: ### Language of document, for internationalisation. Default: en (English)
+:language: en
+:comment: ### Legal values: draft-proposal draft-development draft-testing draft-implementation in-force retired. Default is in-force
+:status: in-force
+:comment: ### Document type. Legal values: standard specification resolution regulation.
+:doctype: standard
+:comment: ### Committee
+:committee: ircc
+:comment: ### If more than one committee is involved, they are indicated by suffixing _2, _3 etc to the attribute name
+:committee_2: hssc
+:comment: ### Workgroup
+:workgroup: msdiwg
+:comment: ### If more than one workgroup is involved, they are indicated by suffixing _2, _3 etc to the attribute name
+:workgroup_2: csbwg
+#:comment: ### Name of sponsoring organisation. Not yet implemented. Multiple sponsors are indicated by suffxing _2, _3 etc to the attribute name
+#:sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
+#:comment: ### Logo of sponsor. Not yet implemented.
+#:sponsor-logo: fema.jpg
+:comment: ### draft status, enables display of reviewer notes; remove if final document
+:draft:
+:toc:
+:stem:
+:comment: ### name of this AsciiDoc file
+:docfile: document.adoc
+:mn-document-class: iho
+:comment: ### Omit one of the following to exclude that format from being generated
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+////
+////
+
+
+include::sections/00-preface.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-clause.adoc[]
+include::sections/03-annexA.adoc[]
+
