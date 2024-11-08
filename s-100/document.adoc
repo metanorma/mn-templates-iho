@@ -35,10 +35,6 @@
 :workgroup: msdiwg
 :comment: ### If more than one workgroup is involved, they are indicated by suffixing _2, _3 etc to the attribute name
 :workgroup_2: csbwg
-#:comment: ### Name of sponsoring organisation. Not yet implemented. Multiple sponsors are indicated by suffxing _2, _3 etc to the attribute name
-#:sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
-#:comment: ### Logo of sponsor. Not yet implemented.
-#:sponsor-logo: fema.jpg
 :comment: ### draft status, enables display of reviewer notes; remove if final document
 :draft:
 :toc:
@@ -48,9 +44,13 @@
 :mn-document-class: iho
 :comment: ### Omit one of the following to exclude that format from being generated
 :mn-output-extensions: xml,html,doc,pdf,rxl
+:imagesdir: images
 :local-cache-only:
 :data-uri-image:
-:imagesdir: images
+#:comment: ### Name of sponsoring organisation. Not yet implemented. Multiple sponsors are indicated by suffxing _2, _3 etc to the attribute name
+#:sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
+#:comment: ### Logo of sponsor. Not yet implemented.
+#:sponsor-logo: fema.jpg
 
 ////
 ////

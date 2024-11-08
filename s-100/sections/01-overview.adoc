@@ -11,9 +11,9 @@ The first clause in S-100 documents is an Overview clause, and it has a fixed st
 * Introduction (mandatory)
 * References (recommended)
 *  Terms, definitions and abbreviations (mandatory)
-** Use of Language (recommended)
 ** Terms and Definitions (mandatory)
 ** Abbreviations (mandatory)
+* Use of Language (recommended)
 *  General data product description (mandatory)
 *  Data Product Specification metadata (mandatory)
 *  Product Specification maintenance (mandatory)
@@ -130,26 +130,14 @@ completename::
   content::: Andy Armstrong
 --
 
+
 ////
 The next subclause are Terms, definitions, and abbreviations. 
+Keep the [heading] attribute, as this is a subclause, and Metanorma needs to apply an override to recognise a terms section
 ////
 
+[heading="Terms, definitions and abbreviations"]
 === Terms, definitions and abbreviations
-
-////
-Each terminal subclause under a terms clause in Metanorma is by default a new term. The first subclause is flagged as not a term,
-`[.nonterm]`, because it is a description of the language used  in the rest of the terms clause. The following wording has been
-adopted in S-100:
-////
-
-[.nonterm]
-==== Use of language
-
-Within this document:
-
-* "`Must`" indicates a mandatory requirement.
-* "`Should`" indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.
-* "`May`" means "`allowed to`" or "`could possibly`" and is not mandatory.
 
 ////
 Terms and definitions are listed separately to abbreviations. 
@@ -162,16 +150,25 @@ context for its intended use.
 
 ////
 As there are no further nested clauses, the clauses under "Terms and definitions"' are each a distinct term
+
+* Terms begin with lower case letters.
+
+* Definitions also begin with lower case letters.
+
 ////
 
-===== Coverage
 
-*Feature* that acts as a function to return values from its range for any direct position within its spatial, temporal, or *spatiotemporal domain*.
+===== coverage
+
+*feature* that acts as a function to return values from its range for any direct position within its spatial, temporal, or *spatiotemporal domain*.
 
 NOTE: In other words, a coverage is a feature that has multiple values for each attribute type, where each direct position within the geometric representation of the feature has a single value for each attribute type.
 
 [example]
 Examples include a digital image, polygon overlay, or digital elevation matrix
+
+[.source]
+<<iso-ts-19103>>
 
 ////
 Abbreviations are listed separately, as a definition list.
@@ -201,6 +198,19 @@ SA:: Signature Authority
 SK:: Secret Key
 SONAR:: Sound Navigation and Ranging
 UML:: Universal Modelling Language
+
+////
+The following wording has been adopted in S-100:
+////
+
+=== Use of language
+
+Within this document:
+
+* "`Must`" indicates a mandatory requirement.
+* "`Should`" indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.
+* "`May`" means "`allowed to`" or "`could possibly`" and is not mandatory.
+
 
 ////
 The General data product description is an informal description of the data product, formulated like an abstract.
